@@ -1,0 +1,31 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50vh;
+    
+}
+
+.taskForm {
+    background-color: aqua;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.taskLabel {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.taskLabel label {
+    margin-bottom: 10px;
+}
+
+.taskLabel input {
+    width: 200px;
+    margin: 0 auto;
+}
